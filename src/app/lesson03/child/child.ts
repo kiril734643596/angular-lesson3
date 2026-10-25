@@ -21,10 +21,6 @@ export class Child {
     }
    
   }
-  // onCheck(index:number){
-  //   this.taskArr[index].done=!this.taskArr[index].done
-
-  // }
   deleteButton(index:number){
     this.taskArr.splice(index, 1)
   }
