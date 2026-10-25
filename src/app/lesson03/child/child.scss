@@ -1,0 +1,77 @@
+th{
+padding-right: 55px;
+font-size: 20px;
+// border: 1px solid black;
+}
+
+.header{
+    width: 1200px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // margin-top: 50px;
+    border-top: 1px solid rgba(165, 162, 162, 0.604);
+        border-bottom: 1px solid rgba(165, 162, 162, 0.604);
+
+
+}
+.buttonAdd{
+    background-color: green;
+    width: 150px;
+    height: 42px;
+    border-radius: 5px;
+}
+.inputSearch{
+width: 1000px;
+height: 40px;
+background-color: white;
+border-radius: 5px;
+font-size: 20px;
+
+}
+.editButton{
+    background-color: yellow;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+}
+.deleteButton{
+    background-color: red;
+    border-radius: 5px;
+     width: 80px;
+    height: 30px;
+}
+table{
+    font-size: 25px;
+}
+.editAbsolute{
+
+
+      position: fixed;
+  top: 20px;
+  right: 0;
+  width: 600px;
+  height: 100px;
+  background-color: grey;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+   border-radius: 5px;
+}
+.inputCheck{
+    width: 70%;
+    height: 35px;
+    border-radius: 5px;
+}
+.save{
+    background-color: green;
+    height: 35px;
+    margin-left: 50px;
+    width: 100px;
+    border-radius: 5px;
+}
+.no{
+    background-color: rgba(255, 0, 0, 0.237);
+}
