@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-
 @Component({
   imports: [FormsModule],
   selector: 'app-child',
@@ -19,7 +18,6 @@ export class Child {
       this.taskArr.push({ title: this.task, done: false });
       this.task = '';
     }
-
   }
   deleteButton(index: number) {
     this.taskArr.splice(index, 1)

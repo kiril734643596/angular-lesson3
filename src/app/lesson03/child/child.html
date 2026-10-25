@@ -3,9 +3,7 @@
 <div class="header">
     <input type="text" class="inputSearch" [(ngModel)]="task">
     <button class="buttonAdd" (click)="addButton()">Add</button>
-
 </div>
-
 <div class="tableBox">
     <table>
         <thead>
@@ -26,14 +24,12 @@
                 <td>
                     <input type="checkbox" [(ngModel)]="item.done">
                 </td>
-                <!-- <td> -->
                 @if(item.done){
                 <td [style.color]="'green'">Done</td>
                 }
                 @else {
                 <td [style.color]="'red'">in Progress</td>
                 }
-                <!-- </td> -->
                 <td>
                     <button class="editButton" (click)="editButton(i)">edit</button>
                 </td>
